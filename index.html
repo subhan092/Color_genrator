@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="hexa-container">
+            <div>
+            <span class="hexa-value">#00000</span>
+            <button class="hexa-btn btn">Create New Hexa</button>
+            <button class="hexa-btn hexa-copy">Copy to clipboard</button>
+        </div>
+        </div>
+        <div class="rgb-container">
+          <p class="rgb-value">rgb(255,255,255)</p>
+            <div>
+                <label for="red">Red</label>
+                <input type="range" name="red" id="red" min="0" max="255">
+              </div>
+              <div>
+                <label for="green">Green</label>
+                <input type="range" name="green" id="green" min="0" max="255">
+              </div>
+              <div>
+                <label for="blue">Blue</label>
+                <input type="range" name="blue" id="blue" min="0" max="255">
+              </div>
+                  <button class="rgb-btn btn">Create rgb Color</button>
+                  <button class="rgb-btn rgb-copy">Copy to clipboard</button>
+                  
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

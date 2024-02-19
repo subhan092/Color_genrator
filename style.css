@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    padding: 10px 16px;
+    gap: 5%;
+
+}
+.hexa-container{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(13, 131, 13);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.hexa-value , .rgb-value{
+    display: block;
+    font-size: 28px;
+      padding: 24px 28px;
+    color: #fff;
+    
+}
+.hexa-btn{
+    display: block;
+    font-size: 20px;
+    background: goldenrod;
+    color: #fff;
+    padding: 12px 18px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.rgb-btn{
+    font-size: 20px;
+    background: rgba(233, 30, 206, 0.829);
+    color: #fff;
+    padding: 12px 18px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.rgb-container{
+    width: 50%;
+    height: 100vh;
+    background: rgb(37, 206, 206);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    align-items: center;
+    
+    
+}
+
+.rgb-container div{
+      margin: 10px 0;
+}
+
+@media (max-width:800px) {
+    .main{
+        flex-direction: column;
+     
+       overflow: hidden;
+        
+    }
+    .hexa-container{
+       min-width:  100vw;
+    }
+    .rgb-container{
+        min-width: 100vw;
+    }
+}
